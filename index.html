@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KC HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="btn-group">
+                <button type="submit" class="submit-btn">Login</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+            <div id="errorMsg" class="error-message">Invalid credentials!</div>
+            <div id="successMsg" class="success-message">Login successful! Redirecting...</div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
